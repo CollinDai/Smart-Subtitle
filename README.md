@@ -16,13 +16,13 @@ In this challenge, I'm hoping to solve these problems
 3. Minimize the delay from the speech to the displaying the translated text on screen
 
 ## Tell us how you plan on bringing it to life. 
-I've built a subtitle dipslay app ([link](https://github.com/CollinDai/Subtytle)) several years ago with following features:
+I've built a subtitle display app ([link](https://github.com/CollinDai/Subtytle)) several years ago with following features:
 
 1. search and download `.srt` subtitle source file from subtitle provider ([link](https://www.opensubtitles.org/en/))
 2. parse the source file and play the subtitle synchronously with movie time.
 3. Jump back to review past subtitles. And resume to live playing.
 
-What its shortage is that it only provide subtitles that's available from the subittle provider. If the provider doesn't have a specific movie's subtitle, then the app can't provide that either.
+What its shortage is that it only provide subtitles that's available from the subtitle provider. If the provider doesn't have a specific movie's subtitle, then the app can't provide that either.
 And usually a movie will have its subtitle available couple of weeks after the movie's release. Or sometimes it only has subtitle in languages that user doesn't know.
 
 So the best solution is to let the app listen and display the subtitle autonomously. And that'll rely on the on-device speech-to-text and translation technology.
@@ -47,9 +47,7 @@ But being in the US for only one or two years, I couldn't understand all the jok
 
 So I decided to make Subtytle. But because of those shortage, it is not sufficient for those more needed scenarios. At that times I don't think it was even possible to do live speech-to-text and live translation.
 
-Now I could understand those movies more, but I couldn't help thinking that there are always people coming to the US, trying enjoy the movie but can't because they are not good at English.
+Now I could understand those movies more, but I couldn't help thinking that there are always people coming to the US, trying enjoying the movie but can't because they are not good at English.
 Or there are people going abroad and trying to watch a foreign movie, but like us, they can't understand.
 
-Google has made brilliant things like Live Transcribe and Live Caption. It makes me realize that the technology has made all those impossibles possible.
-
-So I'd give it another try.
+Google has made brilliant things like Live Transcribe and Live Caption. It makes me realize that technology has made all those impossibles possible.
